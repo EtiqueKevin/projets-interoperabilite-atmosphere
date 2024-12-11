@@ -78,8 +78,7 @@
     </xsl:template>
 
     <xsl:template match="temperature/level[@val='sol']">
-
-        Température:  <xsl:value-of select="format-number(number(.) -273.15, '0.0')"/> °C
+        <xsl:value-of select="format-number(number(.) -273.15, '0.0')"/> °C
     </xsl:template>
 
     <xsl:template match="pluie">
@@ -93,7 +92,7 @@
     </xsl:template>
 
     <xsl:template match="vent_moyen/level">
-        Vent: <xsl:value-of select="."/>
+        <xsl:value-of select="."/> km/h
     </xsl:template>
 
     <xsl:template match="nebulosite/level[@val='totale']">
