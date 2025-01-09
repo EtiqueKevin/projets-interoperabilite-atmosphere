@@ -1,0 +1,57 @@
+body {
+	background: #a7d9ff;
+	font-family: 'Roboto', sans-serif;
+}
+
+#map {
+	height: 500px;
+	margin: 20px auto;
+	max-width: 90%;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#meteo {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.echeance {
+	width: 100px;
+	height: 100px;
+}
+
+.vent {
+	text-align: center;
+}
+
+.nebulosite {
+	text-align: center;
+}
+
+.temperature {
+	text-align: center;
+}
+
+.qualite-air {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	text-align: center;
+}
+
+
+
+
